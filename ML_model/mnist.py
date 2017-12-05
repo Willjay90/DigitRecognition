@@ -1,5 +1,3 @@
-import numpy as np
-
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
@@ -57,7 +55,7 @@ X_val = mnist.validation.images.reshape(-1, 28, 28, 1)
 y_val = mnist.validation.labels
 
 # training
-model.fit(X, y, batch_size=64, epochs=2, validation_data=(X_val, y_val))
+model.fit(X, y, batch_size=64, epochs=1, validation_data=(X_val, y_val))
 
 # check the score
 X_test = mnist.test.images.reshape(-1, 28, 28, 1)
