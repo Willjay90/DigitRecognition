@@ -63,7 +63,7 @@ With Keras' API, you can see your network structure `model.summary()`
 
 Also, you can evaluate you model `model.evaluate(X_test, y_test)`
 
-![model_image](https://github.com/Weijay/DigitRecognition/blob/master/resources/Vision.png)
+![model_image](https://github.com/Weijay/DigitRecognition/blob/master/resources/model.png)
 
 
 Training a model is pretty time consuming, you can save your model to disk whenever you want!
