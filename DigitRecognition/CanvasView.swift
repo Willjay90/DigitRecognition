@@ -24,6 +24,8 @@ class CanvasView: UIView {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             startPoint = touch.location(in: self)
+            path = UIBezierPath()
+            path.move(to: startPoint)
         }
     }
     
@@ -32,8 +34,6 @@ class CanvasView: UIView {
             touchPoint = touch.location(in: self)
         }
         
-        path = UIBezierPath()
-        path.move(to: startPoint)
         path.addLine(to: touchPoint)
         startPoint = touchPoint
         
