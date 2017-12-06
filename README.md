@@ -13,6 +13,10 @@ Apple provides [ready-to-use Core ML models](https://developer.apple.com/machine
 
 ---
 ## Build up Machine Learning Model with Keras
+![tensorflow](https://img.shields.io/badge/tensorflow-1.4.0-blue.svg)
+![keras](https://img.shields.io/badge/keras-2.1.2-brightgreen.svg)
+![coremltools](https://img.shields.io/badge/coremltools-0.7-orange.svg)
+
 As you may know, [TensorFlow](https://www.tensorflow.org/) is the most popular machine learning library, and  [Keras](https://keras.io/) is a high-level neural networks API, written in Python and capable of running on top of TensorFlow.
 
 #### Environment Requiresments:
@@ -25,10 +29,14 @@ As you may know, [TensorFlow](https://www.tensorflow.org/) is the most popular m
 ~~My environment is currently in Python 3. To be pain-free, you have to create a python 2 environment for everything to work.~~
 For me I use [Anaconda](https://conda.io/docs/user-guide/install/download.html) to manage packages and environments.
 
-> create one for python version 2.
+create one for python version 2.
+
 ``conda create -n py2 python=2``
+
 and you can list all the environments you have
+
 ``conda env list``
+
 ```
 # conda environments:
 #
@@ -36,7 +44,8 @@ py2                      /Users/WeiJay/anaconda/envs/py2
 tensorflow               /Users/WeiJay/anaconda/envs/tensorflow
 root                  *  /Users/WeiJay/anaconda
 ```
->activate **py2** to set up the environment
+activate **py2** to set up the environment
+
 ``source activate py2``
 
 ```
