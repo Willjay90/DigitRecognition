@@ -5,7 +5,7 @@
 
 After **iOS 11**, Apple introduce **[CoreML](https://developer.apple.com/documentation/coreml)**, which enables developer to build up application with state-of-the-art AI technique.
 
-In this project, you can recognize your **handwritten digit** with a machine learning model, specially trained model based on digipt (MNIST).
+In this project, you can recognize your **handwritten digit** with a machine learning model, specially trained model based on digit [(MNIST)](http://yann.lecun.com/exdb/mnist/).
 
 ![digit_recognition.gif](https://github.com/Weijay/DigitRecognition/blob/master/resources/digitRecognition.gif)
 
