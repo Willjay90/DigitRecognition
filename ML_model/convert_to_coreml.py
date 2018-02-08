@@ -2,13 +2,16 @@
 # https://apple.github.io/coremltools/generated/coremltools.converters.keras.convert.html
 import coremltools
 from keras.models import model_from_json
+from keras.models import load_model
 
 # load model and weights
-json_file = open('keras_model.json', 'r')
-loaded_model_json = json_file.read()
-json_file.close()
-model = model_from_json(loaded_model_json)
-model.load_weights("keras_mnist_model.h5")
+#json_file = open('keras_model.json', 'r')
+#loaded_model_json = json_file.read()
+#json_file.close()
+#model = model_from_json(loaded_model_json)
+#model.load_weights("keras_mnist_model.h5")
+
+model = load_model('keras_mnist_model.h5')
 
 # convert to .mlmodel
 keras_model = coremltools.converters.keras.convert(model, 

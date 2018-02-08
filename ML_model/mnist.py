@@ -67,9 +67,13 @@ print('Loss: %.3f' % score[0])
 print('Accuracy: %.3f' % score[1])
 
 # save your model! serialize model to JSON
-model_json = model.to_json()
-with open("keras_model.json", "w") as json_file:
-    json_file.write(model_json)
+#model_json = model.to_json()
+#with open("keras_model.json", "w") as json_file:
+#    json_file.write(model_json)
 
 # serialize weights to HDF5
-model.save_weights("keras_mnist_model.h5")
+#model.save_weights("keras_mnist_model.h5")
+
+# Saving/loading whole models (architecture + weights + optimizer state)
+model.save('keras_mnist_model.h5')
+

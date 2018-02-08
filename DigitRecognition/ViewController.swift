@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     private func setupCoreMLRequest() {
         // load model
-        let download_model = MNIST().model
+//        let download_model = MNIST().model
         let my_model = my_mnist().model
         
         guard let model = try? VNCoreMLModel(for: my_model) else {

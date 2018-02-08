@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02A6162D1FD6923700B0FB6E /* my_mnist.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 02A6162B1FD6923700B0FB6E /* my_mnist.mlmodel */; };
+		021A7499202C1C44007D1C2E /* my_mnist.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 021A7498202C1C43007D1C2E /* my_mnist.mlmodel */; };
 		02A6162E1FD6923700B0FB6E /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 02A6162C1FD6923700B0FB6E /* MNIST.mlmodel */; };
 		02FB1BD01FD691A60046C6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB1BCF1FD691A60046C6B1 /* AppDelegate.swift */; };
 		02FB1BD21FD691A70046C6B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB1BD11FD691A70046C6B1 /* ViewController.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02A6162B1FD6923700B0FB6E /* my_mnist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = my_mnist.mlmodel; sourceTree = "<group>"; };
+		021A7498202C1C43007D1C2E /* my_mnist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = my_mnist.mlmodel; path = ML_model/my_mnist.mlmodel; sourceTree = SOURCE_ROOT; };
 		02A6162C1FD6923700B0FB6E /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
 		02FB1BCC1FD691A60046C6B1 /* DigitRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02FB1BCF1FD691A60046C6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,8 +62,8 @@
 		02FB1BCE1FD691A60046C6B1 /* DigitRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				021A7498202C1C43007D1C2E /* my_mnist.mlmodel */,
 				02A6162C1FD6923700B0FB6E /* MNIST.mlmodel */,
-				02A6162B1FD6923700B0FB6E /* my_mnist.mlmodel */,
 				02FB1BCF1FD691A60046C6B1 /* AppDelegate.swift */,
 				02FB1BD11FD691A70046C6B1 /* ViewController.swift */,
 				02FB1BE11FD691EE0046C6B1 /* CanvasView.swift */,
@@ -152,7 +152,7 @@
 				02FB1BD21FD691A70046C6B1 /* ViewController.swift in Sources */,
 				02FB1BD01FD691A60046C6B1 /* AppDelegate.swift in Sources */,
 				02FB1BE21FD691EE0046C6B1 /* CanvasView.swift in Sources */,
-				02A6162D1FD6923700B0FB6E /* my_mnist.mlmodel in Sources */,
+				021A7499202C1C44007D1C2E /* my_mnist.mlmodel in Sources */,
 				02FB1BE41FD691FD0046C6B1 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
